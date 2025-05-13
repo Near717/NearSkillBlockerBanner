@@ -2,7 +2,7 @@ Near_SkillBlockerBanner = {
 	name = "NearSkillBlockerBanner",
 	title = "Near's Skill Blocker Banner",
 	shortTitle = "Skill Blocker Banner",
-	version = "1.0.0",
+	version = "1.0.1",
 	author = "|cCC99FFnotnear|r",
 }
 

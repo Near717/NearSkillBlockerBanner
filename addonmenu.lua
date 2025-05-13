@@ -19,8 +19,8 @@ function Near_SkillBlockerBanner.SetupSettings()
 		return {
 			b_cast = {
 				type = 'checkbox',
-				name = GetString(NEARSB_LAM_co_bcast_name),
-				tooltip = GetString(NEARSB_LAM_co_bcast_tooltip),
+				name = GetString(NEARSBB_LAM_co_bcast_name),
+				tooltip = GetString(NEARSBB_LAM_co_bcast_tooltip),
 				getFunc = function() return sv_skilldata.block end,
 				setFunc = function(v)
 					sv_skilldata.block, sv_skilldata.msg.re_cast = v, true
