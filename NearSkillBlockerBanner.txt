@@ -1,11 +1,11 @@
 ## Title: Near's Skill Blocker Banner
 ## Description: Block's disabling Banner Bearer
 ## APIVersion: 101046
-## Version: 1.0.1
-## AddOnVersion: 101
+## Version: 1.0.2
+## AddOnVersion: 102
 ## SavedVariables: NearSkillBlockerBanner_Data
 ## Author: |cCC99FFnotnear|r
-## DependsOn: LibAddonMenu-2.0>=30 NearSkillBlocker>=390 LibSkillBlocker>=109
+## DependsOn: LibAddonMenu-2.0>=40 NearSkillBlocker>=390 LibSkillBlocker>=109
 ## OptionalDependsOn: AddonCategory
 
 lang/en.lua

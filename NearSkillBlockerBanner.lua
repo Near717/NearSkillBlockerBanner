@@ -2,7 +2,7 @@ Near_SkillBlockerBanner = {
 	name = "NearSkillBlockerBanner",
 	title = "Near's Skill Blocker Banner",
 	shortTitle = "Skill Blocker Banner",
-	version = "1.0.1",
+	version = "1.0.2",
 	author = "|cCC99FFnotnear|r",
 }
 
@@ -11,7 +11,29 @@ Near_SkillBlockerBanner.skilldata = {
 }
 
 Near_SkillBlockerBanner.buffdata = {
-    [1] = { [227066] = true, [227067] = true, [227003] = true, [227004] = true, [227007] = true, [227008] = true, [227009] = true }, -- Banner Bearer
+    [1] = { -- Banner Bearer
+		[227066] = true,
+		[227067] = true,
+		[227069] = true,
+		[227003] = true,
+		[227004] = true,
+		[227007] = true,
+		[227008] = true,
+		[227009] = true,
+		[227070] = true,
+		[227071] = true,
+		[227073] = true,
+		[227075] = true,
+		[227082] = true,
+		[227085] = true,
+		[227086] = true,
+		[227087] = true,
+		[227088] = true,
+		[227089] = true,
+		[217704] = true,
+		[217705] = true,
+		[217706] = true,
+	},
 }
 
 --[[
