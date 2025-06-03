@@ -57,7 +57,7 @@ local function buffExists(ability)
 
 	for buffIndex = 1, GetNumBuffs(unitTag) do
 		local _, _, _, _, _, _, _, _, _, _, buffAbilityId, _, castByPlayer = GetUnitBuffInfo(unitTag, buffIndex)
-		if buffs[buffAbilityId] then
+		if buffs[buffAbilityId] and castByPlayer then
 			return true
 		end
 	end
